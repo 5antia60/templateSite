@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+li, a, .darkModeLabel
+{
+    font-family: 'Lilita One', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--colorText);
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 30px 10%;
+}
+
+.logoNavBar
+{
+    max-width: 75px;
+}
+
+.navBarLinks li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navBarLinks li a:hover
+{
+    color: rgb(79, 194, 194);
+}

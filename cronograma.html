@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacinação SP - Cronograma</title>
+
+    <link rel="icon" href="./images/imgTitle.png">
+    <link rel="stylesheet" href="./style/navBar.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/cronograma.css">
+
+    <meta name="description" content="Cronograma atualizado da vacinação ao estado de São Paulo.">
+</head>
+<body>
+    <input type="checkbox" class="darkModeInput" id="darkMode" style="display: none;"></input>
+    <main>
+        <header class="navBar">
+            <img class="logoNavBar" src="./images/imgNavBar.png" alt="logo">
+            <nav>
+                <ul class="navBarLinks">
+                    <li><a href="./inicio.html">Início</a></li>
+                    <li><a style="color: rgb(50, 101, 121);">Cronograma</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+            <label for="darkMode" class="darkModeLabel">Modo escuro</label>
+        </header>
+        <br>
+        <br>
+        <div id="cronograma" class="cronograma">
+            <h1>Cronograma de vacinação</h1>
+            <h2>A vacina "CoronaVac" é composta por duas doses</h2>
+            <p style="text-align: center;">O tempo recomendado é de 30 dias entre a primeira e a segunda dose da vacina.</p>
+            <br>
+            <p>“Vacine-se por você, pela sua família, pelos seus amigos e por quem você nem conhece, mas quer o mesmo que você. Se a vacina é do Butantan, 
+                você pode confiar. É do Butantan. É de São Paulo, é do Brasil“ - Retirado do comercial do Governo do estado em respeito a CoronaVac.</p>
+            <br>
+            <br>
+
+            <table>
+                <caption>Doses e suas datas</caption>
+                <th>1ª dose</th>
+                <th>2ª dose</th>
+                <th>Grupo</th>
+    
+                <tr>
+                    <td>25/01</td>
+                    <td>15/02</td>
+                    <td>Profissionais de saúde</td>
+                </tr>
+                <tr class="l1">
+                    <td>08/02</td>
+                    <td>01/03</td>
+                    <td>Pessoas com 75 anos ou mais</td>
+                </tr>
+                <tr>
+                    <td>15/02</td>
+                    <td>08/03</td>
+                    <td>Pessoas com 70 a 74 anos</td>
+                </tr>
+                <tr class="l1">
+                    <td>22/02</td>
+                    <td>15/03</td>
+                    <td>Pessoas com 65 a 69 anos</td>
+                </tr>
+                <tr>
+                    <td>01/03</td>
+                    <td>22/03</td>
+                    <td>Pessoas com 60 a 64 anos</td>
+                </tr>
+                <tr>
+                    <th colspan="5" id="rodape">Fonte: www.cnnbrasil.com.br/saude (Atualizado 11 de janeiro de 2021 às 18:38)</th>
+                </tr>
+            </table>
+            <br>
+            <br>
+        </div>
+    </main>
+</body>
+</html>
